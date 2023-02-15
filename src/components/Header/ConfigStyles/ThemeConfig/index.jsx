@@ -10,6 +10,7 @@ export const ThemeConfig = () => {
     <>
       <StyledLabel>
         <Switch
+          aria-label="Theme Switch"
           onChange={handleThemeChange}
           checked={theme === 'Dark'}
           uncheckedIcon={false}
