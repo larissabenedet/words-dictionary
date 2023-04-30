@@ -14,7 +14,14 @@ export const ConfigStyleHeader = () => {
         </Tooltip>
       </Grid>
 
-      <Grid item xs={6}>
+      <Grid
+        item
+        xs={6}
+        style={{
+          display: 'flex',
+          justifyContent: 'end',
+        }}
+      >
         <Configs>
           <FontConfig />
           <Divider
